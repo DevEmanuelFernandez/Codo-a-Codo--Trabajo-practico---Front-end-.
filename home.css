@@ -1,0 +1,389 @@
+
+/*---------- caracteristicas y dimenciones para las etiquetas de home ----------*/
+
+.container-body{
+    height: 630px;
+}
+
+/*----------- inicio banner ------------ */
+
+#banner-home{
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    border-color: red;
+    float: left;
+    background-color: rgba(0, 0, 0, .6);
+    margin-top: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#banner-home div h2{
+    color:white;
+    font-family: 'Trebuchet MS', 'Haettenschweiler';
+    font-size: 110%;
+    margin-top: 20px;
+}
+
+#banner-home .table{
+    text-align: center;
+    color:#fff;
+    border-collapse: separate;
+    font-family: 'Trebuchet MS', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#banner-home .table thead tr td {
+    border-collapse: separate;
+    border-collapse: collapse;
+    border: 2px solid black;
+    background: black;
+    color: white;
+    padding: 0px 5px 0px 5px;
+}
+
+#banner-home .table tbody tr td {
+    border-collapse: collapse;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    padding: 0px 5px 0px 5px;
+}
+
+/*----------- inicio asidebar ----------- */
+
+aside{
+    width: 12%;
+    height: auto;
+    background:red;
+    background-image: url(image/navbar3.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    margin-top: 3.5%;
+    background-size: 150%;
+    border-radius: 10px;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+
+aside div h2{
+    color:white;
+    font-family: 'Trebuchet MS', 'Haettenschweiler';
+    font-size: 130%;
+    margin-top: 50px;
+}
+
+aside #sidebar-home { 
+    margin-left: 0px;
+    margin-right: 30px;
+    display: flex;
+}
+
+aside #sidebar-home ul { 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+aside #sidebar-home ul li{ 
+   font-size: 100%;
+   display: inline;
+   flex: 1 0 auto;
+   text-align: center;
+}
+
+aside #sidebar-home ul li a{ 
+    border-radius: 10px;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Haettenschweiler';
+    color:red;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* inicio de @media  */
+
+/* ------ ipad ------ */
+
+@media all and (min-width: 768px) and (max-width:1023px){
+    
+    .container-body{
+        height: 425px;
+    }
+
+    /*----------- inicio banner ------------ */
+    
+    #banner-home{
+        width: 19%;
+        border-radius: 5px;
+        float: left;
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #banner-home div h2{
+        font-size: 80%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #banner-home .table{
+        text-align: center;
+        font-size: 60%;
+        margin-top: 0px;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        border-radius: 5px;
+        border-color: #fff;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #banner-home .table thead tr td {
+        border: 2px solid black;
+    }
+
+    #banner-home .table tbody tr td {
+        border: 2px solid black;
+    }
+
+    /*----------- inicio asidebar ------------*/
+
+    aside{
+        width: 12%;
+        margin-top: 3.5%;
+        background-size: 150%;
+        border-radius: 5px;
+        float: right;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    } 
+
+    aside div h2{
+        font-size: 120%;
+        margin-top: 50px;
+    }
+
+    aside #sidebar-home { 
+        margin-left: 0px;
+        margin-right: 25px;
+        display: flex;
+    }
+
+    aside #sidebar-home ul { 
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    aside #sidebar-home ul li{ 
+        font-size: 75%;
+    }
+
+    aside #sidebar-home ul li a{ 
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+/* ------ corte @media ------ */
+
+@media all and (min-width: 481px) and (max-width:767px){
+
+    .container-body{
+        height: 425px;
+    }
+
+    /*-------------- inicio banner -------------*/
+    
+    #banner-home{
+        width: 30%;
+        border-radius: 5px;
+        float: left;
+        margin-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    #banner-home div h2{
+        font-size: 70%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #banner-home .table{
+        text-align: center;
+        font-size: 60%;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        border-radius: 5px;
+        border-color: #fff;
+    }
+    
+    #banner-home .table thead tr td {
+        border: 2px solid black;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+    
+    #banner-home .table tbody tr td {
+        border: 2px solid black;
+    }
+    
+    /*----------- inicio asidebar------------ */
+    
+    aside{
+        width: 18%;
+        margin-top: 10%;
+        background-size: 240%;
+        border-radius: 5px;
+        float: right;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    } 
+    
+    aside div h2{
+        font-size: 80%;
+        margin-top: 20px;
+    }
+    
+    aside #sidebar-home { 
+        margin-left: 0px;
+        margin-right: 35px;
+        display: flex;
+    }
+    
+    aside #sidebar-home ul { 
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    aside #sidebar-home ul li{ 
+        font-size: 60%;
+    }
+    
+    aside #sidebar-home ul li a{ 
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+    /* ------ iphone ------ */
+
+@media all and (min-width: 320px) and (max-width:480px){
+
+    .container-body{
+        height: 360px;
+    }
+    
+    /*----------- inicio banner ------------ */
+
+    #banner-home{
+        width: 43%;
+        border-radius: 5px;
+        float: left;
+        margin-top: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    #banner-home div h2{
+        font-size: 65%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #banner-home .table{
+        text-align: center;
+        font-size: 50%;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        border-radius: 5px;
+        border-color: #fff;
+    }
+    
+    #banner-home .table thead tr td {
+        border: 2px solid black;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+    
+    #banner-home .table tbody tr td {
+        border: 2px solid black;
+    }
+    
+    /*----------- inicio asidebar ------------ */
+    
+    aside{
+        width: 20%;
+        margin-top: 20%;
+        background-size: 270%;
+        border-radius: 5px;
+        float: right;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    } 
+    
+    aside div h2{
+        font-size: 70%;
+        margin-top: 20px;
+    }
+    
+    aside #sidebar-home { 
+        margin-left: 0px;
+        margin-right: 35px;
+        display: flex;
+    }
+    
+    aside #sidebar-home ul { 
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    aside #sidebar-home ul li{ 
+        font-size: 50%;
+    }
+    
+    aside #sidebar-home ul li a{ 
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}

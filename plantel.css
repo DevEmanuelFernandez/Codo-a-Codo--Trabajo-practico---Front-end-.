@@ -1,0 +1,213 @@
+
+/*---------- caracteristicas y dimenciones para las etiquetas de plantel ----------*/
+
+.container-body{
+    height: auto;
+}
+
+/* ---- inicio galeria plantel ---- */
+
+.centrado{
+    margin: 0 auto;
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ 
+.titulo1 {
+    margin: 16px;
+    padding: 16px;
+    font-weight: 30px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tarjeta-content {
+    background-color: white;
+    padding: 22px;
+}
+
+.tarjeta-content h2{
+    color:black;
+    font-size: 150%;
+    font-family: 'Trebuchet MS', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-weight: normal;
+}
+
+.tarjeta-content p{
+    font-size: 95%;
+    color: black;
+    font-family: 'Trebuchet MS', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+
+figure{
+    margin: 0px;
+}
+
+img {
+    border: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.tarjeta {
+    background-color: white;
+    margin-bottom: 16px;
+    width: 22%;
+    border-radius: 10px;
+   
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* inicio de @media  */
+
+/* ------ ipad ------ */
+
+@media all and (min-width: 768px) and (max-width:1023px){
+
+    /* ---- inicio galeria plantel ---- */
+
+    .centrado{
+        margin: 0 auto;
+        padding: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+        
+    .titulo1 {
+        margin: 8px;
+        padding: 8px;
+        font-weight: 15px;
+    }
+
+    .tarjeta-content {
+        padding: 11px;
+    }
+
+    .tarjeta-content h2{
+        font-size: 100%;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+
+    .tarjeta-content p{
+        font-size: 70%;
+    }
+
+    img {
+        border: 0px;
+        width: 100%;
+        height: auto;
+    }
+
+    .tarjeta {
+        margin-bottom: 8px;
+        width: 30%;
+    }
+
+}
+
+/* ------ corte @media ------ */
+
+    @media all and (min-width: 481px) and (max-width:767px){
+
+    /* ---- inicio galeria plantel ---- */
+
+    .centrado{
+        margin: 0 auto;
+        padding: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+        
+    .titulo1 {
+        margin: 8px;
+        padding: 8px;
+        font-weight: 15px;
+    }
+
+    .tarjeta-content {
+        padding: 11px;
+    }
+
+    .tarjeta-content h2{
+        font-size: 80%;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+
+    .tarjeta-content p{
+        font-size: 60%;
+    }
+
+    img {
+        border: 0px;
+        width: 100%;
+        height: auto;
+    }
+
+    .tarjeta {
+        margin-bottom: 8px;
+        width: 45%;
+    }
+}
+
+/* ------ iphone ------ */
+
+    @media all and (min-width: 320px) and (max-width:480px){
+    
+    /* ---- inicio galeria plantel ---- */
+    
+    .centrado{
+        margin: 0 auto;
+        padding: 16px;
+    }
+        
+    .titulo1 {
+        margin: 8px;
+        padding: 8px;
+        font-weight: 15px;
+    }
+    
+    .tarjeta-content {
+        padding: 11px;
+    }
+    
+    .tarjeta-content h2{
+        font-size: 70%;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+    
+    .tarjeta-content p{
+        font-size: 60%;
+    }
+    
+    img {
+        border: 0px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .tarjeta {
+        margin-bottom: 8px;
+        width: 45%;
+    }
+
+}

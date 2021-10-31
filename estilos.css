@@ -1,0 +1,325 @@
+
+/*---------- caracteristicas y dimenciones generales ----------*/
+
+body {
+    width: 95%;
+    height: auto;
+    background:rgb(231, 12, 12);
+    background-image: url(image/fondo1.jpg);
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#body{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --------- inicio header ----------- */
+
+header{
+    width: 95%;
+    height: 80px;
+    background:red;
+    background-image: url(image/header2.png);
+    background-size: 100%;
+    font-family: 'Trebuchet MS', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    color: #FCFCFC;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar1{
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 20px;
+    float: left;
+}
+
+ul{
+    margin: 0px;
+    list-style-type: none;
+}
+
+ul li{
+    font-size: 100%;
+    display: inline;
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+ul li a{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    color:red;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#header img{
+    width: 5%;
+    padding-right: 40px;
+    padding: 0 auto;
+    float: right;
+}
+
+/*-------------- fin header -------------*/
+
+.container-titulo h1 {
+    font-size: 300%;
+    font-family: 'Trebuchet MS', 'Haettenschweiler';
+    text-align: center;
+    border-bottom: 1px solid hsl(0, 0%, 0%);   
+}
+
+/* ------------- inicio footer-------------  */
+
+footer{
+    width: 95%;
+    height: auto;
+    background-image: url(image/footer1.jpg);
+    background-size:  100%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section #footer{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section #footer table thead tr td div{
+    display:inline-block;
+    text-align:center;
+}
+
+section #footer table tr td .red-1 img{
+    width: 14%;
+    padding-top: auto;
+    padding-bottom: auto;;
+}
+
+section #footer table tr td .red-2 img{
+    width: 12%;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+/* ------ ipad ------ */
+
+@media all and (min-width: 768px) and (max-width:1023px){
+    
+    /* --------- inicio header ----------- */
+
+    header{
+        width: 95%;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    #navbar1{
+        height: 20px;
+        margin-top: 7.5px;
+        padding-left: 10px;
+        float: left;
+    }
+
+    ul{
+        margin: 0px;
+        list-style-type: none;
+    }
+
+    ul li{
+        font-size: 80%;
+        display: inline;
+        flex: 1 0 auto;
+        text-align: center;
+    }
+
+    ul li a{
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    #header img{
+        width: 7%;
+        padding-right: 20px;
+        padding: 0 auto;
+        float: right;
+    }
+
+    /*-------------- fin header -------------*/
+
+    .container-titulo h1 {
+        font-size: 150%;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* ------------- inicio footer-------------  */
+
+    footer{
+        width: 95%;
+        border-radius: 5px;
+    }
+
+    #footer table tr td .red-1 img{
+        width: 15%;
+    }
+
+    #footer table tr td .red-2 img{
+        width: 13%;
+    }
+}
+
+/* ------ corte @media ------ */
+
+@media all and (min-width: 481px) and (max-width:767px){
+
+    header{
+        width: 95%;
+        height: 30px;
+        border-radius: 5px;
+    }
+    
+    #navbar1{
+        height: 15px;
+        margin-top: 5px;
+        padding-left: 7.5px;
+        float: left;
+    }
+    
+    ul{
+        margin: 0px;
+        list-style-type: none;
+    }
+    
+    ul li{
+        font-size: 60%;
+        display: inline;
+        flex: 1 0 auto;
+        text-align: center;
+    }
+    
+    ul li a{
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    #header img{
+        width: 6%;
+        padding-right: 20px;
+        padding: 0 auto;
+        float: right;
+    }
+    
+    /*-------------- fin header -------------*/
+    
+    .container-titulo h1 {
+        font-size: 130%;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .container-body{
+        height: 425px;
+    }
+    
+    /* ------------- inicio footer-------------  */
+    
+    footer{
+        width: 95%;
+        border-radius: 5px;
+    }
+    
+    #footer table tr td .red-1 img{
+        width: 17%;
+    }
+    
+    #footer table tr td .red-2 img{
+        width: 15%;
+    }
+}
+
+    /* ------ iphone ------ */
+
+    @media all and (min-width: 320px) and (max-width:480px){
+
+        header{
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+        }
+        
+        #navbar1{
+            height: 15px;
+            margin-top: 5px;
+            padding-left: 0px;
+            margin-right: 0px;
+            float: left;
+        }
+        
+        ul{
+            margin: 0px;
+        }
+        
+        ul li{
+            font-size: 50%;
+            display: inline;
+            flex: 1 0 auto;
+            text-align: center;
+        }
+        
+        ul li a{
+            padding: 5px;
+            border-radius: 5px;
+        }
+        
+        #header img{
+            width: 7%;
+            padding-top: 5px;
+            padding-right: 10px;
+            padding: 0 auto;
+            float: right;
+        }
+        
+        /*-------------- fin header -------------*/
+        
+        .container-titulo h1 {
+            font-size: 100%;
+            text-align: center;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        
+        .container-body{
+            height: 360px;
+        }
+        
+        /* ------------- inicio footer-------------  */
+        
+        footer{
+            width: 95%;
+            border-radius: 5px;
+        }
+        
+        #footer table tr td .red-1 img{
+            width: 19%;
+        }
+        
+        #footer table tr td .red-2 img{
+            width: 18%;
+        }
+        
+    
+    }
